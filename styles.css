@@ -1,0 +1,175 @@
+
+
+/* Custom CSS */
+        /* Add hover effect to benefit cards */
+        .benefit:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Change shadow color and size */
+        }
+
+        /* Add hover effect to category cards */
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Change shadow color and size */
+        }
+
+        /* Add hover effect to testimonials */
+        .testimonial:hover {
+            transform: scale(1.05); /* Scale up testimonial */
+        }
+
+        /* Add hover effect to call-to-action button */
+        #call-to-action button:hover {
+            background-color: #28a745; /* Change button background color */
+        }
+
+
+#benefits {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 60px 0;
+}
+
+#benefits h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.benefit {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.benefit img {
+    width: 80px; /* Adjust icon size as needed */
+    margin-bottom: 20px;
+}
+
+.benefit p {
+    margin-bottom: 0;
+}
+
+.benefit:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .benefit {
+        margin-bottom: 30px;
+    }
+}
+      
+      
+      /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3; /* Light gray */
+            color: #333; /* Dark gray text */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333; /* Dark gray */
+            color: #fff; /* White text */
+            padding: 80px;
+            text-align: center;
+            margin: 2%;
+        }
+
+        section {
+            padding: 40px 20px;
+            background-color: #fff; /* White background for sections */
+            margin-bottom: 20px;
+            border-radius: 8px; /* Rounded corners for sections */
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Featured Categories */
+        .category {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px; /* Rounded corners for category boxes */
+        }
+
+        .category h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Testimonials */
+        .testimonial {
+            border-left: 4px solid #007bff;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .author {
+            font-weight: bold;
+        }
+
+        /* How It Works */
+        #how-it-works ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+
+        /* FAQ */
+        .question {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .question h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Call to Action */
+        #call-to-action {
+            text-align: center;
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        #call-to-action h3 {
+            margin-bottom: 20px;
+        }
+
+        #call-to-action button {
+            background-color: #fff;
+            color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 4px; /* Rounded corners for button */
+        }
+
+        #call-to-action button:hover {
+            background-color: #ccc;
+            color: #007bff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+  
